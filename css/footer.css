@@ -1,0 +1,38 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F9FAFB;
+    padding: 6rem 1rem;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  footer h2 {
+    color: var(--title-color);
+  }
+  
+  footer span {
+    color: var(--text-color);
+  }
+  
+  footer form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer input {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 12rem;
+    margin-right: 1rem;
+  }
+  @media screen and (min-width: 1024px) {
+    footer input {
+      width: 25rem;
+    }
+  }
